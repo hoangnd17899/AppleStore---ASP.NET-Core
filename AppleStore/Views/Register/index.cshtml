@@ -1,0 +1,31 @@
+@model CustomerRegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+@section css {
+     <link rel="stylesheet" href="~/css/login.css">
+}
+
+<div class="category_name">REGISTER</div>
+        <div id="login-form">
+            <form class="form-signin" asp-controller="Register" asp-action="Index" method="post">
+                <p style="text-align:center">@@AppleStore</p>
+                    <span class="text-danger">@ViewData["error_register"]</span>
+                    <input type="text" asp-for="@Model.UserName" class="form-control" placeholder="User Name">
+                    <span asp-validation-for="@Model.UserName" class="text-danger"></span>
+                    <input type="password" asp-for="@Model.Password" class="form-control" placeholder="Password">
+                    <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                    <input type="password" asp-for="@Model.RepeatPassword" class="form-control" placeholder="Repeat Password">
+                    <span asp-validation-for="@Model.RepeatPassword" class="text-danger"></span>
+                    <input type="text" asp-for="@Model.DisplayName" class="form-control" placeholder="Display Name">
+                    <span asp-validation-for="@Model.DisplayName" class="text-danger"></span>
+                    
+                    <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-user-plus"></i> Sign up</button>
+                    <a asp-action="Index" asp-controller="Login" id="cancel_signup"><i class="fas fa-angle-left"></i> Back</a>
+            </form>
+            <br>
+        </div>
+@section js {
+     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js" ></script>
+     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" ></script>
+}

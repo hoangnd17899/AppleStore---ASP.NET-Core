@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AppleStore</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	@RenderSection("css", required: false)
+	<link rel="stylesheet" href="~/css/header.css">
+	<link rel="stylesheet" href="~/css/bottom.css">
+	<link rel="stylesheet" href="~/lib/fontawesome/css/all.css">
+</head>
+<body>
+	<nav id="header" class="navbar navbar-expand-sm bg-light justify-content-center">
+			<ul class="navbar-nav">
+				<li class="logo">
+					<a asp-controller="Home" asp-action="Index">AppleStore</a>
+				</li>
+				<li class="nav-item">
+					<a asp-controller="Home" asp-action="Index" class="nav-link">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" asp-controller="Shop" asp-action="Index">Products</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" asp-controller="Cart" asp-action="Index">Cart</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" asp-controller="Checkout" asp-action="Index">Checkout</a>
+				</li>
+				@{
+					//Hứng session người dùng đã đăng nhập vào
+					Customer cus = Context.Session.GetObjectFromJson<Customer>("userlogin");
+					if(cus!=null){
+						<div class="dropdown show">
+							<a class="dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								@cus.DisplayName
+							</a>
+
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								<a class="dropdown-item">Account Detail</a>
+								<a class="dropdown-item" asp-controller="Login" asp-action="Logout">Logout</a>
+							</div>
+						</div>	
+					}
+					else{
+						<li class="nav-item">
+							<a class="nav-link" asp-controller="Login" asp-action="Index">Login</a>
+						</li>
+					}
+				}	
+				<li class="cart">
+					<a asp-controller="Cart" asp-action="Index"><i class="fas fa-shopping-cart"></i></a>
+				</li>
+			</ul>
+	</nav>
+    @RenderBody()
+    
+	<div class="bottom">
+		<div id="linkbot">
+			<h5>LINK</h5>
+			<a asp-controller="Home" asp-action="Index">Home</a><br>
+			<a asp-controller="Shop" asp-action="Index">Products</a><br>
+			<a asp-controller="Cart" asp-action="Index">Cart</a><br>
+			<a asp-controller="Checkout" asp-action="Index">Checkout</a>
+		</div>
+		<div id="inforbot">
+			<h5>ABOUT US</h5>
+			<a>HoangND</a><br>
+			<a>Apple Product</a><br>
+			<a style="font-size: 38px;"><i class="fab fa-facebook"></i>  <i class="fab fa-instagram"></i>  <i class="fab fa-github"></i></a>
+		</div>
+		<div id="helpbot">
+			<h5>HELP</h5>
+			<a>Buying Direction</a><br>
+			<a>Checkout Method</a><br>
+			<a>Membership</a><br>
+		</div>
+		<div id="contactbot">
+			<h5>CONTACT</h5>
+			<a><i class="fas fa-map-marker-alt"></i> Ha Noi University of Sience and Technology</a><br>
+			<a>1 Dai Co Viet street - Ha Noi city</a><br>
+			<a><i class="fas fa-phone"></i> 0946164389 - 01672872312</a>
+		</div>
+    </div>
+    <div style="background-color: black;color: white;text-align: center;"><i class="far fa-copyright"></i> 2019 - 2020 A-GARDEN</div>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="~/lib/jquery/dist/jquery.min.js" ></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js" ></script>
+	<script src="~/js/header.js"></script>
+	@RenderSection("js", required: false)
+</body>
+</html>

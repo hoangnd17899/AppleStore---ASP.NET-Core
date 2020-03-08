@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/hoangnd/source/netcore/AppleStore/AppleStore/AppleStore.csproj": {}
+  },
+  "projects": {
+    "/home/hoangnd/source/netcore/AppleStore/AppleStore.DL/AppleStore.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hoangnd/source/netcore/AppleStore/AppleStore.DL/AppleStore.DL.csproj",
+        "projectName": "AppleStore.DL",
+        "projectPath": "/home/hoangnd/source/netcore/AppleStore/AppleStore.DL/AppleStore.DL.csproj",
+        "packagesPath": "/home/hoangnd/.nuget/packages/",
+        "outputPath": "/home/hoangnd/source/netcore/AppleStore/AppleStore.DL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hoangnd/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/AppleStore.Entities.csproj": {
+                "projectPath": "/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/AppleStore.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.61.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/AppleStore.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/AppleStore.Entities.csproj",
+        "projectName": "AppleStore.Entities",
+        "projectPath": "/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/AppleStore.Entities.csproj",
+        "packagesPath": "/home/hoangnd/.nuget/packages/",
+        "outputPath": "/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hoangnd/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.61.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hoangnd/source/netcore/AppleStore/AppleStore/AppleStore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hoangnd/source/netcore/AppleStore/AppleStore/AppleStore.csproj",
+        "projectName": "AppleStore",
+        "projectPath": "/home/hoangnd/source/netcore/AppleStore/AppleStore/AppleStore.csproj",
+        "packagesPath": "/home/hoangnd/.nuget/packages/",
+        "outputPath": "/home/hoangnd/source/netcore/AppleStore/AppleStore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hoangnd/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/hoangnd/source/netcore/AppleStore/AppleStore.DL/AppleStore.DL.csproj": {
+                "projectPath": "/home/hoangnd/source/netcore/AppleStore/AppleStore.DL/AppleStore.DL.csproj"
+              },
+              "/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/AppleStore.Entities.csproj": {
+                "projectPath": "/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/AppleStore.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.jQuery.Unobtrusive.Validation": {
+              "target": "Package",
+              "version": "[3.2.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

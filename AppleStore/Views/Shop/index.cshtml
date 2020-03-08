@@ -1,0 +1,54 @@
+@model List<Product>
+@{
+    ViewData["Title"] = "Shop";
+}
+@section css {
+     <link rel="stylesheet" href="~/css/shop.css">
+}
+<div class="category_name">SHOP</div>
+
+	<div>
+		<div class="list-group category">
+			<a class="list-group-item list-group-item-action" style="background-color: black;color: white;">Danh mục</a>
+			<a class="list-group-item list-group-item-action cate_button" cate="all">Tất cả sản phẩm</a>
+			<a class="list-group-item list-group-item-action cate_button" cate="iphone">iPhone</a>
+			<a class="list-group-item list-group-item-action cate_button" cate="ipad">iPad</a>
+			<a class="list-group-item list-group-item-action cate_button" cate="macbook">Macbook</a>
+			<a class="list-group-item list-group-item-action cate_button" cate="imac">iMac</a>
+			<a class="list-group-item list-group-item-action cate_button" cate="watch">Watch</a>
+		</div>
+	
+		<div class="mainbody">
+			<!-- Danh sách sản phẩm -->
+			<div class="productlist"></div>
+
+			<!-- Phần phân trang -->
+			<nav aria-label="Page navigation example">
+				<ul class="pagination">
+					<li class="page-item"><a class="page-link previouspage">Previous</a></li>
+					<div class="page-number-display">
+						@{
+							int count=(int)ViewData["productscount"];
+							int pageSize=(int)ViewData["pageSize"];
+							if(count%pageSize == 0){
+								for(int i=1;i<=count/pageSize;i++){
+								<li class="page-item"><a class="page-link pagenumber" page="@i">@i</a></li>
+								}
+							}
+							else {
+								for(int i=1;i<=count/pageSize+1;i++){
+								<li class="page-item"><a class="page-link pagenumber" page="@i">@i</a></li>
+								}
+							}
+						}
+
+					</div>
+					<li class="page-item"><a class="page-link nextpage">Next</a></li>
+				</ul>
+			</nav>	
+		</div>
+	</div>
+@section js {
+	<script src="~/js/common.js"></script>
+    <script src="~/js/shop.js"></script>
+}

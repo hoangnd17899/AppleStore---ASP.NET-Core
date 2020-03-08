@@ -1,0 +1,30 @@
+@model CustomerLoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+@section css {
+     <link rel="stylesheet" href="~/css/login.css">
+}
+
+<div class="category_name">LOGIN</div>
+	    <div id="login-form">
+            <form class="form-signin" asp-controller="Login" asp-action="Index" method="post">
+                <p style="text-align:center"> @@AppleStore  </p>
+                <span class="text-danger">@ViewData["errorlogin"]</span>
+                <input asp-for="@Model.UserName" class="form-control" placeholder="Username" autofocus="">
+                <span asp-validation-for="@Model.UserName" class="text-danger"></span>
+                <input asp-for="@Model.Password" type="password" class="form-control" placeholder="Password">
+                <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                
+                <button class="btn btn-dark btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Sign in</button>
+                <a href="#" id="forgot_pswd">Need help?</a>
+                <a asp-action="Index" asp-controller="Register" class="btn btn-primary btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i> Sign up Now</a>
+            </form>
+            <!-- <p>Don't have an account!</p>  -->
+            <br/>
+        </div>
+
+@section js {
+     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js" ></script>
+     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" ></script>
+}

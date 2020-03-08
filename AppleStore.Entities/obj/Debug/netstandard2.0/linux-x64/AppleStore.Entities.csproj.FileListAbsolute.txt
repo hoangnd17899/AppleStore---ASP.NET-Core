@@ -1,0 +1,8 @@
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/bin/Debug/netstandard2.0/linux-x64/AppleStore.Entities.deps.json
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/bin/Debug/netstandard2.0/linux-x64/AppleStore.Entities.dll
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/bin/Debug/netstandard2.0/linux-x64/AppleStore.Entities.pdb
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/obj/Debug/netstandard2.0/linux-x64/AppleStore.Entities.csprojAssemblyReference.cache
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/obj/Debug/netstandard2.0/linux-x64/AppleStore.Entities.AssemblyInfoInputs.cache
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/obj/Debug/netstandard2.0/linux-x64/AppleStore.Entities.AssemblyInfo.cs
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/obj/Debug/netstandard2.0/linux-x64/AppleStore.Entities.dll
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/obj/Debug/netstandard2.0/linux-x64/AppleStore.Entities.pdb

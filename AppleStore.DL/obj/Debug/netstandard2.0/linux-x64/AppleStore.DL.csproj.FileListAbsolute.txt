@@ -1,0 +1,11 @@
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.DL/bin/Debug/netstandard2.0/linux-x64/AppleStore.DL.deps.json
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.DL/bin/Debug/netstandard2.0/linux-x64/AppleStore.DL.dll
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.DL/bin/Debug/netstandard2.0/linux-x64/AppleStore.DL.pdb
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.DL/bin/Debug/netstandard2.0/linux-x64/AppleStore.Entities.dll
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.DL/bin/Debug/netstandard2.0/linux-x64/AppleStore.Entities.pdb
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.DL/obj/Debug/netstandard2.0/linux-x64/AppleStore.DL.csprojAssemblyReference.cache
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.DL/obj/Debug/netstandard2.0/linux-x64/AppleStore.DL.AssemblyInfoInputs.cache
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.DL/obj/Debug/netstandard2.0/linux-x64/AppleStore.DL.AssemblyInfo.cs
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.DL/obj/Debug/netstandard2.0/linux-x64/AppleStore.DL.csproj.CopyComplete
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.DL/obj/Debug/netstandard2.0/linux-x64/AppleStore.DL.dll
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.DL/obj/Debug/netstandard2.0/linux-x64/AppleStore.DL.pdb

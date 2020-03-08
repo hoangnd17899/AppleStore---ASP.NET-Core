@@ -1,0 +1,16 @@
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/bin/Release/netstandard2.0/AppleStore.Entities.deps.json
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/bin/Release/netstandard2.0/AppleStore.Entities.dll
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/bin/Release/netstandard2.0/AppleStore.Entities.pdb
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/obj/Release/netstandard2.0/AppleStore.Entities.csprojAssemblyReference.cache
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/obj/Release/netstandard2.0/AppleStore.Entities.AssemblyInfoInputs.cache
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/obj/Release/netstandard2.0/AppleStore.Entities.AssemblyInfo.cs
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/obj/Release/netstandard2.0/AppleStore.Entities.dll
+/home/hoangnd/source/netcoreweb/AppleStore/AppleStore.Entities/obj/Release/netstandard2.0/AppleStore.Entities.pdb
+/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/bin/Release/netstandard2.0/AppleStore.Entities.deps.json
+/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/bin/Release/netstandard2.0/AppleStore.Entities.dll
+/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/bin/Release/netstandard2.0/AppleStore.Entities.pdb
+/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/obj/Release/netstandard2.0/AppleStore.Entities.csprojAssemblyReference.cache
+/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/obj/Release/netstandard2.0/AppleStore.Entities.AssemblyInfoInputs.cache
+/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/obj/Release/netstandard2.0/AppleStore.Entities.AssemblyInfo.cs
+/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/obj/Release/netstandard2.0/AppleStore.Entities.dll
+/home/hoangnd/source/netcore/AppleStore/AppleStore.Entities/obj/Release/netstandard2.0/AppleStore.Entities.pdb
